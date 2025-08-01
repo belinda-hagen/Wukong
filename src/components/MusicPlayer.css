@@ -1,0 +1,34 @@
+
+.music-player-icon {
+  position: fixed;
+  bottom: 40px; 
+  right: 40px;
+  z-index: 1000;
+  background: linear-gradient(135deg, #1a1a1a 80%, #bfa14a 100%);
+  border-radius: 50%;
+  box-shadow: 0 4px 24px 0 rgba(191, 161, 74, 0.25), 0 1.5px 8px 0 rgba(0,0,0,0.35);
+  padding: 16px;
+  cursor: pointer;
+  border: 2.5px solid #bfa14a;
+  transition: background 0.2s, box-shadow 0.2s, border 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-player-icon:hover {
+  background: linear-gradient(135deg, #2d2d2d 80%, #ffe066 100%);
+  box-shadow: 0 8px 32px 0 rgba(191, 161, 74, 0.35), 0 2px 12px 0 rgba(0,0,0,0.45);
+  border: 2.5px solid #ffe066;
+}
+
+.music-player-icon svg {
+  color: #ffe066;
+  filter: drop-shadow(0 0 4px #bfa14a88);
+  transition: color 0.2s, filter 0.2s;
+}
+
+.music-player-icon:hover svg {
+  color: #bfa14a;
+  filter: drop-shadow(0 0 8px #ffe066cc);
+}

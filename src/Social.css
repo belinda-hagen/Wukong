@@ -1,0 +1,38 @@
+.social-links {
+  position: fixed;
+  top: 50%;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-50%);
+  gap: 24px;
+  z-index: 99;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    position: absolute;
+    top: auto;
+    bottom: 16px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    flex-direction: row;
+    gap: 16px;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .social-links a {
+    pointer-events: auto;
+  }
+}
+
+.social-links a img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+.social-links a img:hover {
+  transform: scale(1.1);
+}

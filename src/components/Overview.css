@@ -1,0 +1,159 @@
+@media (max-width: 400px) {
+  .img-container {
+    display: none !important;
+  }
+  .decorative-line {
+    display: none !important;
+  }
+  .divider-container img {
+    display: none !important;
+  }
+  .wise-monkey-saying-container {
+    font-size: 1rem !important;
+    padding: 8px 2vw;
+    width: 96vw !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    position: static !important;
+    text-align: center !important;
+  }
+  #infoText {
+    font-size: 0.9rem !important;
+    padding: 6px 2vw;
+    width: 96vw !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    position: static !important;
+    text-align: left !important;
+  }
+  .gif-container {
+    position: static !important;
+    margin-top: 12px !important;
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    left: 500px !important;
+    top: auto !important;
+    padding: 0 2vw !important;
+  }
+  .gif-container img {
+    width: 80vw !important;
+    max-width: 80vw !important;
+    height: auto !important;
+    margin-left: 10vw !important;
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 600px) {
+  .img-container {
+    display: none !important;
+  }
+  .decorative-line {
+    display: none !important;
+  }
+  .divider-container img {
+    display: none !important;
+  }
+  .wise-monkey-saying-container {
+    font-size: 1rem !important;
+    padding: 8px 2vw;
+    width: 96vw !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    position: static !important;
+    text-align: center !important;
+  }
+  #infoText {
+    font-size: 0.9rem !important;
+    padding: 6px 2vw;
+    width: 96vw !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    position: static !important;
+    text-align: left !important;
+  }
+  .gif-container {
+    position: static !important;
+    margin-top: 12px !important;
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    left: 500px !important;
+    top: auto !important;
+    padding: 0 2vw !important;
+  }
+  .gif-container img {
+    width: 80vw !important;
+    max-width: 80vw !important;
+    height: auto !important;
+    margin-left: 10vw !important;
+    margin-right: 0 !important;
+  }
+}
+.wise-monkey-saying-container{
+    width: auto;
+    height: 500px;
+    font-size: 35px;
+    font-family: "Kaushan Script";
+    color: white;
+    position: absolute;
+    left: 100px; 
+    top: 110px; 
+    gap: 20px;
+}
+
+#overview{
+    background-image: url("img/overview-background.png");
+}
+
+#infoText{
+    height: auto;
+    width: 550px;
+    font-size: 20px;
+    font-family: "Kantumruy Pro";
+    top: 30%; 
+    left:0;
+}
+
+.gif-container {
+    position: absolute;
+    left: 0;
+    top: 95%;
+    width: 100%;
+    display: flex;
+    justify-self: flex-end;
+}
+
+.gif-container img {
+    width: 150%;
+    height: auto;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff; 
+    border-radius: 8px;     
+}
+
+.img-container {
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    width: min(5000px, 45vw); 
+    display: block;
+    z-index: 2;
+}
+
+.img-container img {
+    width: 100%; 
+    height: auto;
+    max-width: 800px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+
+

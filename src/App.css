@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.decorative-line {
+  height: 4px;
+  background: linear-gradient(90deg, #d4b896 0%, #c4a374 100%);
+  border-radius: 2px;
+  margin: 24px auto;
+  width: 100%;
+  max-width: 1200px;
+  transition: width 0.3s;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Mobile (≤600px) */
+@media (max-width: 600px) {
+  .App-header {
+    font-size: 1.1rem;
+    padding: 10px;
+    min-height: 100vh;
+  }
+  .App-logo {
+    height: 25vmin;
+  }
+  .decorative-line {
+    width: 90vw;
+    max-width: 90vw;
+  }
+}
+
+/* Tablet (601px–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .App-header {
+    font-size: 1.3rem;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  .App-logo {
+    height: 30vmin;
+  }
+  .decorative-line {
+    width: 85vw;
+    max-width: 85vw;
+  }
+}
+
+/* Laptop (901px–1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .App-header {
+    font-size: 1.5rem;
+    padding: 30px;
+    min-height: 100vh;
+  }
+  .App-logo {
+    height: 35vmin;
+  }
+  .decorative-line {
+    width: 80vw;
+    max-width: 1000px;
+  }
+}
+
+/* Desktop (>1200px) */
+@media (min-width: 1201px) {
+  .App-header {
+    font-size: 1.7rem;
+    padding: 40px 80px;
+    min-height: 100vh;
+  }
+  .App-logo {
+    height: 40vmin;
+  }
+  .decorative-line {
+    width: 100%;
+    max-width: 1200px;
+  }
+}

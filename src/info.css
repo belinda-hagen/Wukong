@@ -1,0 +1,44 @@
+/* Info Banner Styles for Black Myth: Wukong Project */
+
+.info-banner {
+  width: 100%;
+  background: linear-gradient(90deg, #18140c 0%, #111 60%, #18140c 100%);
+  color: #ffe066;
+  text-align: center;
+  padding: 18px 0 16px 0;
+  font-size: 1.08rem;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  letter-spacing: 0.02em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1200;
+  box-shadow: 0 -2px 24px 0 #bfa14a44, 0 -2px 12px 0 rgba(0,0,0,0.25);
+  border-top: 2.5px solid #bfa14a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  animation: infoBannerFadeIn 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes infoBannerFadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.info-banner-icon {
+  font-size: 1.35em;
+  margin-right: 8px;
+  color: #ffe066;
+  filter: drop-shadow(0 0 6px #bfa14a88);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.info-banner-text {
+  display: inline-block;
+  max-width: 900px;
+  text-align: left;
+  line-height: 1.5;
+}
