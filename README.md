@@ -12,8 +12,6 @@ This is a **personal fan project** created to celebrate and showcase my passion 
 - **Frontend Framework**: React.js
 - **Styling**: CSS 
 - **Routing**: React Router
-- **Deployment**: GitHub Pages
-
 ---
 
 ## 📦 Installation
