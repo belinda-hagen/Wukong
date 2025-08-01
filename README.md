@@ -9,9 +9,11 @@ This is a **personal fan project** created to celebrate and showcase my passion 
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework**: React.js
-- **Styling**: CSS 
-- **Routing**: React Router
+- **Frontend Framework:** React.js (v19.1.0)
+- **Styling:** CSS (vanilla CSS files)
+- **Routing:** React Router (react-router-dom v7.7.1)
+- **Build Tool:** Vite (v7.0.3) 
+
 ---
 
 ## 📦 Installation
